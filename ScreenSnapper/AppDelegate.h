@@ -3,7 +3,7 @@
 //  ScreenSnapper
 //
 //  Created by Sam Stone on 26/03/2015.
-//  Copyright (c) 2015 Sam Stone. All rights reserved.
+//  Copyright (c) 2015 Sam Stone.
 //
 
 #import <Cocoa/Cocoa.h>

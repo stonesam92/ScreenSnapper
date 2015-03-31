@@ -3,7 +3,7 @@
 //  ScreenSnapper
 //
 //  Created by Sam Stone on 27/03/2015.
-//  Copyright (c) 2015 Sam Stone. All rights reserved.
+//  Copyright (c) 2015 Sam Stone.
 //
 
 #import <Foundation/Foundation.h>
