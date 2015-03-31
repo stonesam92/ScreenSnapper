@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B4C8031AC4A12300723588 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8021AC4A12300723588 /* AppDelegate.m */; };
+		22B4C8051AC4A12300723588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8041AC4A12300723588 /* main.m */; };
+		22B4C8251AC5878800723588 /* SSScreenshotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8241AC5878800723588 /* SSScreenshotController.m */; };
+		22B4C82E1AC58C4E00723588 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B4C82D1AC58C4E00723588 /* Application.xib */; };
+		22C9728A1ACAB7DE00304592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C972891ACAB7DE00304592 /* Assets.xcassets */; };
+		22C9728D1ACAC21100304592 /* SSSnapMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9728C1ACAC21100304592 /* SSSnapMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSnapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B4C8001AC4A12300723588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B4C8011AC4A12300723588 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22B4C8021AC4A12300723588 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22B4C8041AC4A12300723588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B4C8231AC5878800723588 /* SSScreenshotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSScreenshotController.h; sourceTree = "<group>"; };
+		22B4C8241AC5878800723588 /* SSScreenshotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSScreenshotController.m; sourceTree = "<group>"; };
+		22B4C82D1AC58C4E00723588 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		22C972891ACAB7DE00304592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C9728B1ACAC21100304592 /* SSSnapMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSnapMenu.h; sourceTree = "<group>"; };
+		22C9728C1ACAC21100304592 /* SSSnapMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSnapMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B4C7F91AC4A12300723588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B4C7F31AC4A12300723588 = {
+			isa = PBXGroup;
+			children = (
+				22B4C7FE1AC4A12300723588 /* ScreenSnapper */,
+				22B4C7FD1AC4A12300723588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B4C7FD1AC4A12300723588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B4C7FE1AC4A12300723588 /* ScreenSnapper */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C8011AC4A12300723588 /* AppDelegate.h */,
+				22B4C8021AC4A12300723588 /* AppDelegate.m */,
+				22B4C8231AC5878800723588 /* SSScreenshotController.h */,
+				22B4C8241AC5878800723588 /* SSScreenshotController.m */,
+				22C9728B1ACAC21100304592 /* SSSnapMenu.h */,
+				22C9728C1ACAC21100304592 /* SSSnapMenu.m */,
+				22B4C82D1AC58C4E00723588 /* Application.xib */,
+				22C972891ACAB7DE00304592 /* Assets.xcassets */,
+				22B4C7FF1AC4A12300723588 /* Supporting Files */,
+			);
+			path = ScreenSnapper;
+			sourceTree = "<group>";
+		};
+		22B4C7FF1AC4A12300723588 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C8001AC4A12300723588 /* Info.plist */,
+				22B4C8041AC4A12300723588 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B4C7FB1AC4A12300723588 /* ScreenSnapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B4C8191AC4A12400723588 /* Build configuration list for PBXNativeTarget "ScreenSnapper" */;
+			buildPhases = (
+				22B4C7F81AC4A12300723588 /* Sources */,
+				22B4C7F91AC4A12300723588 /* Frameworks */,
+				22B4C7FA1AC4A12300723588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenSnapper;
+			productName = ScreenSnapper;
+			productReference = 22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B4C7F41AC4A12300723588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sam Stone";
+				TargetAttributes = {
+					22B4C7FB1AC4A12300723588 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 22B4C7F71AC4A12300723588 /* Build configuration list for PBXProject "ScreenSnapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B4C7F31AC4A12300723588;
+			productRefGroup = 22B4C7FD1AC4A12300723588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B4C7FB1AC4A12300723588 /* ScreenSnapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B4C7FA1AC4A12300723588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B4C82E1AC58C4E00723588 /* Application.xib in Resources */,
+				22C9728A1ACAB7DE00304592 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B4C7F81AC4A12300723588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9728D1ACAC21100304592 /* SSSnapMenu.m in Sources */,
+				22B4C8051AC4A12300723588 /* main.m in Sources */,
+				22B4C8031AC4A12300723588 /* AppDelegate.m in Sources */,
+				22B4C8251AC5878800723588 /* SSScreenshotController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22B4C8171AC4A12400723588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22B4C8181AC4A12400723588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22B4C81A1AC4A12400723588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSnapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22B4C81B1AC4A12400723588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSnapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B4C7F71AC4A12300723588 /* Build configuration list for PBXProject "ScreenSnapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B4C8171AC4A12400723588 /* Debug */,
+				22B4C8181AC4A12400723588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B4C8191AC4A12400723588 /* Build configuration list for PBXNativeTarget "ScreenSnapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B4C81A1AC4A12400723588 /* Debug */,
+				22B4C81B1AC4A12400723588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B4C7F41AC4A12300723588 /* Project object */;
+}
