@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface SSSnapMenu : NSMenu
+@property (strong, nonatomic) NSMenuItem *startAtLoginItem;
 @property (strong, nonatomic) NSMenuItem *snapScreenItem;
 @property (strong, nonatomic) NSMenuItem *snapWindowItem;
 @property (strong, nonatomic) NSMenuItem *snapSelectionItem;

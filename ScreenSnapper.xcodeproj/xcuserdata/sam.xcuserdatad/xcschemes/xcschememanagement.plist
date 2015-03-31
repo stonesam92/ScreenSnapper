@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ScreenSnapperLauncher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>224435061ACB43A100007A2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>224435181ACB43A100007A2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>22B4C7FB1AC4A12300723588</key>
 		<dict>
 			<key>primary</key>

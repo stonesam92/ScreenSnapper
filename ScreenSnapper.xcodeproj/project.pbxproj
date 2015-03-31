@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2244350D1ACB43A100007A2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244350C1ACB43A100007A2D /* AppDelegate.m */; };
+		2244350F1ACB43A100007A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244350E1ACB43A100007A2D /* main.m */; };
+		224435111ACB43A100007A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224435101ACB43A100007A2D /* Images.xcassets */; };
+		224435141ACB43A100007A2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224435121ACB43A100007A2D /* MainMenu.xib */; };
+		224435281ACB440C00007A2D /* ScreenSnapperLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 224435071ACB43A100007A2D /* ScreenSnapperLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		22B4C8031AC4A12300723588 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8021AC4A12300723588 /* AppDelegate.m */; };
 		22B4C8051AC4A12300723588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8041AC4A12300723588 /* main.m */; };
 		22B4C8251AC5878800723588 /* SSScreenshotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8241AC5878800723588 /* SSScreenshotController.m */; };
 		22B4C82E1AC58C4E00723588 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B4C82D1AC58C4E00723588 /* Application.xib */; };
 		22C9728A1ACAB7DE00304592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C972891ACAB7DE00304592 /* Assets.xcassets */; };
 		22C9728D1ACAC21100304592 /* SSSnapMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9728C1ACAC21100304592 /* SSSnapMenu.m */; };
+		22CE27281ACB52210057DDBE /* SSLoginItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE27271ACB52210057DDBE /* SSLoginItemController.m */; };
+		EF50BB151BCA49B789E5B2AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B45E4DAABA1FF1772731AD2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		224435271ACB43F300007A2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				224435281ACB440C00007A2D /* ScreenSnapperLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B45E4DAABA1FF1772731AD2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		224435071ACB43A100007A2D /* ScreenSnapperLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSnapperLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2244350A1ACB43A100007A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2244350B1ACB43A100007A2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2244350C1ACB43A100007A2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2244350E1ACB43A100007A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224435101ACB43A100007A2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		224435131ACB43A100007A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSnapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4C8001AC4A12300723588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B4C8011AC4A12300723588 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,24 +55,60 @@
 		22C972891ACAB7DE00304592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C9728B1ACAC21100304592 /* SSSnapMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSnapMenu.h; sourceTree = "<group>"; };
 		22C9728C1ACAC21100304592 /* SSSnapMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSnapMenu.m; sourceTree = "<group>"; };
+		22CE27261ACB52210057DDBE /* SSLoginItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLoginItemController.h; sourceTree = "<group>"; };
+		22CE27271ACB52210057DDBE /* SSLoginItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLoginItemController.m; sourceTree = "<group>"; };
+		C4A5672955B5837587FB39F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F311514EC72978CA59036439 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22B4C7F91AC4A12300723588 /* Frameworks */ = {
+		224435041ACB43A100007A2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22B4C7F91AC4A12300723588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF50BB151BCA49B789E5B2AB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224435081ACB43A100007A2D /* ScreenSnapperLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				2244350B1ACB43A100007A2D /* AppDelegate.h */,
+				2244350C1ACB43A100007A2D /* AppDelegate.m */,
+				224435101ACB43A100007A2D /* Images.xcassets */,
+				224435121ACB43A100007A2D /* MainMenu.xib */,
+				224435091ACB43A100007A2D /* Supporting Files */,
+			);
+			path = ScreenSnapperLauncher;
+			sourceTree = "<group>";
+		};
+		224435091ACB43A100007A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2244350A1ACB43A100007A2D /* Info.plist */,
+				2244350E1ACB43A100007A2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		22B4C7F31AC4A12300723588 = {
 			isa = PBXGroup;
 			children = (
 				22B4C7FE1AC4A12300723588 /* ScreenSnapper */,
+				224435081ACB43A100007A2D /* ScreenSnapperLauncher */,
 				22B4C7FD1AC4A12300723588 /* Products */,
+				D12EF1B6E7DD54A3D84D335B /* Pods */,
+				CC61643F17BD7F4E514D5407 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */,
+				224435071ACB43A100007A2D /* ScreenSnapperLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +130,8 @@
 				22B4C8241AC5878800723588 /* SSScreenshotController.m */,
 				22C9728B1ACAC21100304592 /* SSSnapMenu.h */,
 				22C9728C1ACAC21100304592 /* SSSnapMenu.m */,
+				22CE27261ACB52210057DDBE /* SSLoginItemController.h */,
+				22CE27271ACB52210057DDBE /* SSLoginItemController.m */,
 				22B4C82D1AC58C4E00723588 /* Application.xib */,
 				22C972891ACAB7DE00304592 /* Assets.xcassets */,
 				22B4C7FF1AC4A12300723588 /* Supporting Files */,
@@ -81,16 +148,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CC61643F17BD7F4E514D5407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B45E4DAABA1FF1772731AD2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D12EF1B6E7DD54A3D84D335B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F311514EC72978CA59036439 /* Pods.debug.xcconfig */,
+				C4A5672955B5837587FB39F4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		224435061ACB43A100007A2D /* ScreenSnapperLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224435211ACB43A100007A2D /* Build configuration list for PBXNativeTarget "ScreenSnapperLauncher" */;
+			buildPhases = (
+				224435031ACB43A100007A2D /* Sources */,
+				224435041ACB43A100007A2D /* Frameworks */,
+				224435051ACB43A100007A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenSnapperLauncher;
+			productName = ScreenSnapperLauncher;
+			productReference = 224435071ACB43A100007A2D /* ScreenSnapperLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
 		22B4C7FB1AC4A12300723588 /* ScreenSnapper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22B4C8191AC4A12400723588 /* Build configuration list for PBXNativeTarget "ScreenSnapper" */;
 			buildPhases = (
+				B9339ADCDC22A4D7916C1C24 /* Check Pods Manifest.lock */,
 				22B4C7F81AC4A12300723588 /* Sources */,
 				22B4C7F91AC4A12300723588 /* Frameworks */,
 				22B4C7FA1AC4A12300723588 /* Resources */,
+				224435271ACB43F300007A2D /* CopyFiles */,
+				AD9546BA3B716D6729D67A63 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,8 +214,17 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Sam Stone";
 				TargetAttributes = {
+					224435061ACB43A100007A2D = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					22B4C7FB1AC4A12300723588 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 82J752PASX;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -129,11 +242,21 @@
 			projectRoot = "";
 			targets = (
 				22B4C7FB1AC4A12300723588 /* ScreenSnapper */,
+				224435061ACB43A100007A2D /* ScreenSnapperLauncher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		224435051ACB43A100007A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224435111ACB43A100007A2D /* Images.xcassets in Resources */,
+				224435141ACB43A100007A2D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22B4C7FA1AC4A12300723588 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,7 +268,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD9546BA3B716D6729D67A63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9339ADCDC22A4D7916C1C24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		224435031ACB43A100007A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244350F1ACB43A100007A2D /* main.m in Sources */,
+				2244350D1ACB43A100007A2D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22B4C7F81AC4A12300723588 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,12 +319,50 @@
 				22B4C8051AC4A12300723588 /* main.m in Sources */,
 				22B4C8031AC4A12300723588 /* AppDelegate.m in Sources */,
 				22B4C8251AC5878800723588 /* SSScreenshotController.m in Sources */,
+				22CE27281ACB52210057DDBE /* SSLoginItemController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		224435121ACB43A100007A2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224435131ACB43A100007A2D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		224435221ACB43A100007A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenSnapperLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		224435231ACB43A100007A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSnapperLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		22B4C8171AC4A12400723588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -238,6 +441,7 @@
 		};
 		22B4C81A1AC4A12400723588 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F311514EC72978CA59036439 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -249,6 +453,7 @@
 		};
 		22B4C81B1AC4A12400723588 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A5672955B5837587FB39F4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -261,6 +466,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		224435211ACB43A100007A2D /* Build configuration list for PBXNativeTarget "ScreenSnapperLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224435221ACB43A100007A2D /* Debug */,
+				224435231ACB43A100007A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		22B4C7F71AC4A12300723588 /* Build configuration list for PBXProject "ScreenSnapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

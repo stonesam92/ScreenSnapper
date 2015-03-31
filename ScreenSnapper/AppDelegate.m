@@ -8,11 +8,14 @@
 
 #import "AppDelegate.h"
 #import "SSScreenshotController.h"
+#import <StartAtLoginController/StartAtLoginController.h>
+
+@import ServiceManagement;
 
 static NSString *FIRST_RUN_DEFAULT_KEY = @"HAS_RUN_ONCE";
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) StartAtLoginController *loginItemController;
 @property (weak) IBOutlet NSWindow *window;
 @property (strong) NSStatusItem *statusBarItem;
 @end

@@ -8,6 +8,7 @@
 
 #import "SSSnapMenu.h"
 #import "SSScreenshotController.h"
+#import "SSLoginItemController.h"
 
 @implementation SSSnapMenu
 - (instancetype) init {
@@ -40,6 +41,12 @@
         }
         
         [self addItem:[NSMenuItem separatorItem]];
+        self.startAtLoginItem = [[NSMenuItem alloc] initWithTitle:@"Start at Login"
+                                                           action:@selector(toggleStartOnLogin:)
+                                                    keyEquivalent:@""];
+        self.startAtLoginItem.target = [SSLoginItemController sharedController];
+        self.startAtLoginItem.state = [SSLoginItemController sharedController].startAtLogin;
+        [self addItem:self.startAtLoginItem];
         self.quitAppItem = [[NSMenuItem alloc] initWithTitle:@"Quit"
                                                       action:@selector(terminate:)
                                                keyEquivalent:@""];
