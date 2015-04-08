@@ -1,0 +1,13 @@
+PODS:
+  - Sparkle (1.9.0)
+  - StartAtLoginController (0.0.1)
+
+DEPENDENCIES:
+  - Sparkle
+  - StartAtLoginController
+
+SPEC CHECKSUMS:
+  Sparkle: 75bbbc5ab2d666f7f77c241afe7fd28364a8f9f7
+  StartAtLoginController: 9ff14295bab38f7cba164a838349f6c0a2d83020
+
+COCOAPODS: 0.34.4

@@ -12,8 +12,6 @@
 		224435111ACB43A100007A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224435101ACB43A100007A2D /* Images.xcassets */; };
 		224435141ACB43A100007A2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224435121ACB43A100007A2D /* MainMenu.xib */; };
 		224435281ACB440C00007A2D /* ScreenSnapperLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 224435071ACB43A100007A2D /* ScreenSnapperLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		22488E4C1AD45ED6001D4F90 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22488E4B1AD45ED6001D4F90 /* Sparkle.framework */; };
-		22488E4F1AD45F5E001D4F90 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22488E4B1AD45ED6001D4F90 /* Sparkle.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		22488E511AD47B48001D4F90 /* samstone_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 22488E501AD47B48001D4F90 /* samstone_pub.pem */; };
 		22B4C8031AC4A12300723588 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8021AC4A12300723588 /* AppDelegate.m */; };
 		22B4C8051AC4A12300723588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8041AC4A12300723588 /* main.m */; };
@@ -42,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				22488E4F1AD45F5E001D4F90 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +54,6 @@
 		2244350E1ACB43A100007A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		224435101ACB43A100007A2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		224435131ACB43A100007A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		22488E4B1AD45ED6001D4F90 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		22488E501AD47B48001D4F90 /* samstone_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = samstone_pub.pem; sourceTree = "<group>"; };
 		22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSnapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4C8001AC4A12300723588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +85,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF50BB151BCA49B789E5B2AB /* libPods.a in Frameworks */,
-				22488E4C1AD45ED6001D4F90 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +115,6 @@
 		22B4C7F31AC4A12300723588 = {
 			isa = PBXGroup;
 			children = (
-				22488E4B1AD45ED6001D4F90 /* Sparkle.framework */,
 				22B4C7FE1AC4A12300723588 /* ScreenSnapper */,
 				224435081ACB43A100007A2D /* ScreenSnapperLauncher */,
 				22B4C7FD1AC4A12300723588 /* Products */,
