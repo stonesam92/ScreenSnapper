@@ -16,4 +16,4 @@ Works by simply simulating the correct system keyboard shortcut using `CGEventCr
 ##Installation:
 * Download a zip containing the latest release [here](/stonesam92/ScreenSnapper/releases/download/v1.0.0/ScreenSnapper.zip)
 * Extract the zip and copy the app to your Applications folder
-* If gatekeeper is installed, you must right-click the app and select "Open" the first time you run the app
+* If gatekeeper is enabled, you must right-click the app and select "Open" the first time you run the app
