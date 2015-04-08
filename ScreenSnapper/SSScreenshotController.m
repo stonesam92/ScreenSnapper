@@ -62,8 +62,6 @@ static SSScreenshotController *sharedInstance = nil;
 
 - (void)createMenuItem {
     NSImage *image = [NSImage imageNamed:@"MenuIcon_Template"];
-    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:image.size.width+4];
-    self.statusItem.enabled = YES;
     self.menu = [[SSSnapMenu alloc] init];
     
     if (self.saveToClipboard) {
@@ -72,6 +70,8 @@ static SSScreenshotController *sharedInstance = nil;
         self.menu.saveToDiskItem.state = true;
     }
     
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:image.size.width+4];
+    self.statusItem.enabled = YES;
     self.statusItem.menu = self.menu;
     self.statusItem.image = image;
 }
