@@ -476,13 +476,6 @@
 				);
 				INFOPLIST_FILE = ScreenSnapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-l\"Pods-StartAtLoginController\"",
-					"-framework",
-					"\"ServiceManagement\"",
-					"-Wl,-rpath,@loader_path/../Frameworks",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -500,13 +493,6 @@
 				);
 				INFOPLIST_FILE = ScreenSnapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-l\"Pods-StartAtLoginController\"",
-					"-framework",
-					"\"ServiceManagement\"",
-					"-Wl,-rpath,@loader_path/../Frameworks",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
