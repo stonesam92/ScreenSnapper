@@ -10,6 +10,8 @@
 #import "SSScreenshotController.h"
 #import "SSLoginItemController.h"
 
+@import Sparkle;
+
 @implementation SSSnapMenu
 - (instancetype) init {
     if (self = [super init]) {
@@ -41,6 +43,11 @@
         }
         
         [self addItem:[NSMenuItem separatorItem]];
+        self.checkForUpdateItem = [[NSMenuItem alloc] initWithTitle:@"Check for Updates..."
+                                                             action:@selector(checkForUpdates:)
+                                                      keyEquivalent:@""];
+        self.checkForUpdateItem.target = [SUUpdater sharedUpdater];
+        [self addItem:self.checkForUpdateItem];
         self.startAtLoginItem = [[NSMenuItem alloc] initWithTitle:@"Start at Login"
                                                            action:@selector(toggleStartOnLogin:)
                                                     keyEquivalent:@""];

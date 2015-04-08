@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>SUFeedURL</key>
+	<string>http://samstonedev.com/update_feed.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>samstone_pub.pem</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconFile</key>
@@ -21,7 +25,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.1</string>
 	<key>LSBackgroundOnly</key>
 	<true/>
 	<key>LSMinimumSystemVersion</key>

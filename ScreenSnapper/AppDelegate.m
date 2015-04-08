@@ -11,6 +11,7 @@
 #import <StartAtLoginController/StartAtLoginController.h>
 
 @import ServiceManagement;
+@import Sparkle;
 
 static NSString *FIRST_RUN_DEFAULT_KEY = @"HAS_RUN_ONCE";
 
@@ -18,6 +19,7 @@ static NSString *FIRST_RUN_DEFAULT_KEY = @"HAS_RUN_ONCE";
 @property (strong, nonatomic) StartAtLoginController *loginItemController;
 @property (weak) IBOutlet NSWindow *window;
 @property (strong) NSStatusItem *statusBarItem;
+@property (strong, nonatomic) SUUpdater *sparkleUpdater;
 @end
 
 @implementation AppDelegate
@@ -29,6 +31,7 @@ static NSString *FIRST_RUN_DEFAULT_KEY = @"HAS_RUN_ONCE";
         [userDefaults setBool:YES forKey:@"SAVE_TO_CLIPBOARD"];
         [userDefaults synchronize];
     }
+    self.sparkleUpdater = [SUUpdater sharedUpdater];
     [[SSScreenshotController sharedInstance] createMenuItem];
 }
 

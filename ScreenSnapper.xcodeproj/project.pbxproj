@@ -12,6 +12,9 @@
 		224435111ACB43A100007A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224435101ACB43A100007A2D /* Images.xcassets */; };
 		224435141ACB43A100007A2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224435121ACB43A100007A2D /* MainMenu.xib */; };
 		224435281ACB440C00007A2D /* ScreenSnapperLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 224435071ACB43A100007A2D /* ScreenSnapperLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22488E4C1AD45ED6001D4F90 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22488E4B1AD45ED6001D4F90 /* Sparkle.framework */; };
+		22488E4F1AD45F5E001D4F90 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22488E4B1AD45ED6001D4F90 /* Sparkle.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22488E511AD47B48001D4F90 /* samstone_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 22488E501AD47B48001D4F90 /* samstone_pub.pem */; };
 		22B4C8031AC4A12300723588 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8021AC4A12300723588 /* AppDelegate.m */; };
 		22B4C8051AC4A12300723588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8041AC4A12300723588 /* main.m */; };
 		22B4C8251AC5878800723588 /* SSScreenshotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C8241AC5878800723588 /* SSScreenshotController.m */; };
@@ -33,6 +36,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22488E4E1AD45F42001D4F90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22488E4F1AD45F5E001D4F90 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +57,8 @@
 		2244350E1ACB43A100007A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		224435101ACB43A100007A2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		224435131ACB43A100007A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22488E4B1AD45ED6001D4F90 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		22488E501AD47B48001D4F90 /* samstone_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = samstone_pub.pem; sourceTree = "<group>"; };
 		22B4C7FC1AC4A12300723588 /* ScreenSnapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSnapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4C8001AC4A12300723588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B4C8011AC4A12300723588 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF50BB151BCA49B789E5B2AB /* libPods.a in Frameworks */,
+				22488E4C1AD45ED6001D4F90 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +120,7 @@
 		22B4C7F31AC4A12300723588 = {
 			isa = PBXGroup;
 			children = (
+				22488E4B1AD45ED6001D4F90 /* Sparkle.framework */,
 				22B4C7FE1AC4A12300723588 /* ScreenSnapper */,
 				224435081ACB43A100007A2D /* ScreenSnapperLauncher */,
 				22B4C7FD1AC4A12300723588 /* Products */,
@@ -124,6 +141,7 @@
 		22B4C7FE1AC4A12300723588 /* ScreenSnapper */ = {
 			isa = PBXGroup;
 			children = (
+				22488E501AD47B48001D4F90 /* samstone_pub.pem */,
 				22B4C8011AC4A12300723588 /* AppDelegate.h */,
 				22B4C8021AC4A12300723588 /* AppDelegate.m */,
 				22B4C8231AC5878800723588 /* SSScreenshotController.h */,
@@ -195,6 +213,7 @@
 				22B4C7FA1AC4A12300723588 /* Resources */,
 				224435271ACB43F300007A2D /* CopyFiles */,
 				AD9546BA3B716D6729D67A63 /* Copy Pods Resources */,
+				22488E4E1AD45F42001D4F90 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -262,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B4C82E1AC58C4E00723588 /* Application.xib in Resources */,
+				22488E511AD47B48001D4F90 /* samstone_pub.pem in Resources */,
 				22C9728A1ACAB7DE00304592 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -356,7 +381,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ScreenSnapperLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -380,7 +410,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -421,7 +451,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -444,9 +474,21 @@
 			baseConfigurationReference = F311514EC72978CA59036439 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ScreenSnapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-StartAtLoginController\"",
+					"-framework",
+					"\"ServiceManagement\"",
+					"-Wl,-rpath,@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -456,9 +498,21 @@
 			baseConfigurationReference = C4A5672955B5837587FB39F4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ScreenSnapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-StartAtLoginController\"",
+					"-framework",
+					"\"ServiceManagement\"",
+					"-Wl,-rpath,@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

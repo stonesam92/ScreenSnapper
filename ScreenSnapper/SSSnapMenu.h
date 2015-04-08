@@ -16,4 +16,5 @@
 @property (strong, nonatomic) NSMenuItem *saveToClipboardItem;
 @property (strong, nonatomic) NSMenuItem *saveToDiskItem;
 @property (strong, nonatomic) NSMenuItem *quitAppItem;
+@property (strong, nonatomic) NSMenuItem *checkForUpdateItem;
 @end
